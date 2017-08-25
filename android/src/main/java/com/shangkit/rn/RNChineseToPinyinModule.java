@@ -55,8 +55,6 @@ public class RNChineseToPinyinModule extends ReactContextBaseJavaModule {
     @Override
     public Map<String, Object> getConstants() {
         final Map<String, Object> constants = new HashMap<>();
-        constants.put(DURATION_SHORT_KEY, "");
-        constants.put(DURATION_LONG_KEY, "");
         return constants;
     }
 

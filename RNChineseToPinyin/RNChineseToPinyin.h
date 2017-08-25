@@ -11,6 +11,6 @@
 #import <React/RCTBridgeModule.h>
 #import <React/RCTLog.h>
 
-@interface RNChineseToPinyin : NSObject
+@interface RNChineseToPinyin : NSObject <RCTBridgeModule>
 
 @end
